@@ -10,7 +10,7 @@ for day in range(256):
     f0 = fish[0]
     for f in range(len(fish) -1):
         fish[f] = fish[f + 1]
-    fish[5] += f0
+    fish[6] += f0
     fish[-1] = f0
 
 
