@@ -30,8 +30,6 @@ for line in stdin:
     in_, out = line.split(' | ')
     outs = out.split()
     ins = in_.split()
-    togo5 = {"bf", "ce", "be"}
-    togo6 = {"c", "e", "d"}
     for i in sorted(ins, key=lambda x:  (2, 3, 4, 7, 6, 5).index(len(x))):
         if len(i) == 2:
             func(maps, i, "cf")
